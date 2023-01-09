@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px 10px 0;
+    border: solid black;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button#rock {
+    background-color: #f44336;
+  }
+  
+  button#paper {
+    background-color: #2196f3;
+  }
+  
+  button#scissors {
+    background-color: #4caf50;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  .top {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 36px;
+    gap: 0.5rem;
+  }
+
+  .computerchoice {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 36px;
+    gap: 0.5rem;
+  }
+
+  .choicesbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .scores {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
